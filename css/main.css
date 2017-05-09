@@ -1,0 +1,105 @@
+{
+      width: 50%;
+      margin: auto;
+      background-color:#f0bf9e;
+
+  }
+
+
+	p{
+      text-align:center;
+      color:lightgrey;
+      font-family:'Montserrat', sans-serif;
+      font-size:30px;
+    }
+
+    h1{
+      font-family:'Montserrat', sans-serif;
+      text-align:center;
+    }
+
+    h1 span{
+    	color:red;
+    	font-family:'Montserrat', sans-serif;
+    }
+
+    span{
+        color:#f0bf9e;
+    }
+
+
+h2{
+      font-family:cursive;
+    }
+    .jumbotron{background-color:#fff0f5;
+    }
+
+
+    body {
+      background-color:#f0bf9e;
+}
+
+
+
+/* NAVBAR
+===============================================================*/
+ .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#f0bf9e;
+    font-family:'Montserrat', sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #f0bf9e;
+    text-decoration: none;
+}
+
+li img{ 
+  display: inline-block;}
+
+#logo2{display:inline-block;
+
+}
+
+
+footer{
+  background-color:#f0bf9e;
+  padding:10px;
+}
+
+
+table {
+  border-spacing:px;
+  padding:20px;
+  display:center;
+  border:;
+}
+
+
+
+
+
+
+
+
