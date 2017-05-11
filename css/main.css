@@ -1,17 +1,31 @@
-{
+/*{
       width: 50%;
       margin: auto;
       background-color:#f0bf9e;
+      font-family: 'Montserrat', sans-serif;
 
-  }
+  }*/
+
+.befitlogo{
+  width:70px;
+  height:30px;
+}
+
+    p{
+        text-align:center;
+        color:lightgrey;
+        font-family:'Montserrat', sans-serif;
+        font-size:30px;
+      }
 
 
-	p{
-      text-align:center;
-      color:lightgrey;
-      font-family:'Montserrat', sans-serif;
-      font-size:30px;
-    }
+.message{
+  text-align:center;
+  color:lightgrey;
+  font-family:'Montserrat', sans-serif;
+  font-size:15px;
+
+}
 
     h1{
       font-family:'Montserrat', sans-serif;
@@ -29,7 +43,7 @@
 
 
 h2{
-      font-family:cursive;
+      font-family:'Montserrat';
     }
     .jumbotron{background-color:#fff0f5;
     }
@@ -75,19 +89,27 @@ nav li a:hover:not(.active) {
     text-decoration: none;
 }
 
-li img{ 
+li img{
   display: inline-block;}
 
-#logo2{display:inline-block;
+#logo2{
+  display:inline-block;
 
 }
 
-
-footer{
+.indeximages{
+  width: 150px;
+  height: 150px;
+}
+/*footer{
   background-color:#f0bf9e;
   padding:10px;
+}*/
+footer {
+background-color: black;
+  padding: 25px;
+  color:white;
 }
-
 
 table {
   border-spacing:px;
@@ -95,11 +117,3 @@ table {
   display:center;
   border:;
 }
-
-
-
-
-
-
-
-
