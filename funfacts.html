@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<style>
+    .container{
+        margin:3em auto;
+        width:80%;
+        display:grid;
+        grid-template-columns:repeat(3 1fr);
+        grid-template-rows:75px 45px 450px 75px;
+        grid-gap:3px;
+      }
+      .items{
+        height:0;
+        transition:all .5s ease-in-out;
+        color:white;
+        font-family:verdana;
+        font-size:.9em;
+        text-transform:uppercase;
+        font-weight:bold;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        }
+      .item-1, .item-6{background:#4db3ea;}
+      .item-1,.item-5,.item-6{grid-column:1/4;}
+      .item-1{
+        opacity:0;
+        z-index:3;
+        animation:header 3s linear forwards
+      }
+      .item-2, .item-3, .item-4{
+        background:#f0bf9e;
+        z-index:2}
+      .item-2{
+         animation:one 3s 3s linear forwards;
+      }
+      .item-3{
+         animation:two 3s 3s linear forwards;
+      }
+      .item-4{
+         animation:tres 3s 3s linear forwards;
+      }
+      .item-5{
+         background:#ddd;
+         opacity:0;
+         animation:main 3s 5s linear forwards;
+      }
+      .item-6{
+        opacity:0;
+        animation:footer 3s 7s linear forwards;
+      }
+      
+      @keyframes one{
+         30%, 100%{height:45px;}
+      }
+        
+      @keyframes two{
+         40%, 100%{height:45px;}
+      }
+      
+      @keyframes tres{
+         50%, 100%{height:45px;}
+      }
+      
+      @keyframes header{
+         to{opacity:1}
+      }
+      
+      @keyframes main{
+         0%,30%{width:0}
+         70%,100%{opacity:1;width:100%;}
+      }
+      
+      @keyframes footer {
+        0%,30%{transform:scaley(0)}
+        70%,100%{opacity:1; transform:scaley(1);}
+      }
+      
+
+     
+</style>
+
+
+
+<div class="container">
+    <header class="header-item-1">
+        <img src="../CFG-Group-1/images/logo2.png"></a></li>
+        <ul style="float:right;list-style-type:none;">
+            <li><a href="../CFG-Group-1/contact.html">Contact</a></li>
+            </ul>
+    </header>
+
+
+    <div class="menu-item-2" >
+        <li><a href="../CFG-Group-1/nav/getfit.html">Get Fit</a></li>
+    </div>
+    <div class="menu-item-3">
+        <li><a href="../CFG-Group-1/nav/gethealthy.html">Get Healthy</a></li>
+    </div>
+   <div class="menu-item-4">
+    <li><a href="../CFG-Group-1/nav/gettips.html">Get Tips</a></li>
+   </div>
+
+
+     <main class="main-item-5">
+        <div>
+        <table>
+            <tr>
+              <td>
+          <img src="../CFG-Group-1/images/berries.jpg" alt="berries" style="width:150px;height:150px;">
+          </td>
+                <td>
+          <img src="../CFG-Group-1/images/food.JPG" alt="food" style="width:150px;height:150px;">
+          </td>
+          <td>
+            <img src="../CFG-Group-1/images/sideplank.JPG" alt="sideplank" style="width:220px;height:150px;">
+          </td>
+          <td>
+          
+          <p> <span>"</span>So lets...
+            <br>
+            <span>START</span> Fresh.
+            <br>
+            <span>EAT</span> Right.
+            <br>
+            <span>TRAIN</span> Hard.
+            <br>
+            <span>LIVE</span> Healthy.
+            <br>
+            <span>BE</span> Proud.
+          
+          <br>TODAY!<span>"</span>
+          </p>
+          </td>
+              <td>
+          <img src="../CFG-Group-1/images/hsnacks.jpg" alt="hsnacks" style="width:150px;height:150px;">
+          </td>
+              <td>
+          <img src="../CFG-Group-1/images/squatwithweight.jpg" alt="squatwithweight" style="width:150px;height:150px;">
+          </td>
+          <td>
+            <img src="../CFG-Group-1/images/hlunch.jpg" alt="hlunch" style="width:150px;height:150px;">
+          </td>
+          </tr>
+                </table>
+          
+            </div>
+          
+     </main>
+
+
+    <footer class="footer-item-6">
+        <p class="message"> We are passionate about healthy living and to help you we have put together a guide to get you started on your journey.<br>
+            Join us and be a part of the revolution.  </p>
+    </footer>
+ </div>
+
